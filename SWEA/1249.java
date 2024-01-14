@@ -45,8 +45,6 @@ class Solution {
 
   public static void main(String args[]) throws Exception {
 
-    System.setIn(new FileInputStream("src/algorithm/solve_240114/input.txt"));
-
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     int T;
     T = Integer.parseInt(br.readLine());
